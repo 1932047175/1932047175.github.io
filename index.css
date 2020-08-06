@@ -1,0 +1,448 @@
+/*body{
+	@media only screen and (min-width: 992px) and (max-width: 1199px) {
+		body {
+			padding-top: 223px;
+		}
+	}
+	
+	@media only screen and (min-width: 768px) and (max-width: 991px) {
+		body {
+			padding-top: 0;
+		}
+	}
+	
+	@media only screen and (max-width: 767px) {
+		body {
+			padding-top: 0;
+		}
+	}
+	
+	@media only screen and (max-width: 575px) {
+		body {
+			padding-top: 0;
+		}
+	}
+	
+	@media only screen and (max-width: 479px) {
+		body {
+			padding-top: 0;
+		}
+	}
+	
+	.card-body {
+		width: 300px;
+	}
+	
+	.card {
+		width: 150px;
+		overflow: hidden;
+	}
+}*/
+
+#body{
+	background-image: url(img/index-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+ 	blur: (15px);
+	background-attachment: fixed;
+	z-index: -1;
+}
+
+/*清除浮动  bootstrap自带清除浮动*/
+/*.clearfloatbox{
+	margin: 0; 
+	padding: 0; 
+	clear:both;
+}*/
+
+/*第一行css*/
+.t1{
+	height: 40px;
+	line-height: 40px;
+	background-color:darkgray;
+}
+.t1 div{
+	display: inline;
+}
+.t1 a{
+	color:#000000;
+	
+}
+
+.t1 a:hover{
+	
+}
+.t1 a:visited{
+	
+}
+
+/*第二行css样式*/
+.t2-2{
+	margin-top: 20px;
+}
+.search ul {
+	display: flex;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.search ul li {
+	list-style: none;
+	text-align: center;
+	line-height: 40px;
+	padding: 5px;
+	height: 40px;
+	width: 100px;
+	margin: 0 5px;
+	font-size: 15px;
+}
+.search-ul {
+	margin-top: -30px;
+	margin-left: -50px;
+}
+.search a {
+	color: darkred;
+}
+.search a:hover{
+	text-decoration: none;
+}
+.t2-3{
+	float: left;
+	margin-top: 25px;
+	margin-left: 60px;
+}
+.wenzi{
+	float: right;
+}
+
+/*Banner部分css*/
+.daohang{
+	list-style: none;
+	line-height: 40px;
+	height: 40px;
+}
+.daohang li{
+	float: left;
+	width: 120px;
+}
+
+.touming {
+	width: 1200px;
+	height: 50px;
+	background: rgba(76, 76, 76, 0.8);
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	font-family: "宋体";
+	font-size: 20px;
+}
+
+.touming a {
+	color: #F5DADA;
+}
+
+.left-nav {
+	width: 250px;
+	height: 560px;
+	background: rgba(76, 76, 76, 0.8);
+	position: absolute;
+	top: 50px;
+	font-family: "宋体";
+	font-size: 20px;
+}
+
+.left-a {
+	list-style: none;
+	line-height: 70px;
+}
+.left-a a{
+	text-decoration: none;
+}
+.left-a>li{
+	margin-left: 25px;
+}
+.carousel-inner img {
+	width: 100%;
+	height: 610px;
+	margin-top: 0px;
+}
+#inform {
+	position: absolute;
+	top: 50px;
+	left: 250px;
+	width: 470px;
+	height: 560px;
+	display:none;
+}
+
+.informTable {
+	height: 560px;
+	width: 470px;
+	background: rgba(76, 76, 76, 0.8);
+	left: 500px;
+	top: 200px;
+	font-size: 17px;
+	color: orangered;
+	line-height: 30px;
+}
+.yincang{
+	line-height: 18px;
+}
+.yincang a{
+	text-decoration: none;
+}
+.touming a:hover{
+	color: #FF4500;
+}
+.right{
+	width: 200px;
+	height: 560px;
+	margin-top: -3px;
+	float: right;
+}
+.word{
+	position: absolute;
+	top: 250px;
+	left: 45%;
+	color: #F5DADA;
+	z-index: 3;
+	text-align: center;
+	font-family: "仿宋";
+	font-size: 50px;
+}
+
+
+/*优选好调料样式*/
+.box-tiaoliao{
+	position: relative;
+	width: 1200px;
+	height: 448px;
+	margin: auto;
+	
+}
+.bgground{
+	position: absolute;
+    right: 0;
+    width: 1260px;
+    height: 600px;
+}
+.youxuan-img{
+	height: 140px;
+}
+.nav-item{
+	margin-left: 120px;
+	margin-top: 60px;
+	z-index: 1;
+}
+.tab-content{
+	/*background-color: rgba(0,0,255,0.9);	
+	border-top-left-radius: 250px;
+	border-bottom-left-radius:250px;*/
+	
+}
+.content{
+	/*background-color: rgba(202,235,216,0.9);
+	border-bottom-right-radius :120px;*/
+	/*margin-top: 10px;*/
+	padding-left: 80px;
+}
+.youxuan-img{
+	width: 185px;
+	height: 300px;
+	margin-top: 30px;
+}
+.content ul{
+	list-style: none;
+	float: left;
+}
+.content ul li{
+	margin-left: 15px;
+	font-size: 14px;
+}
+.content ul li img{
+	height: 280px;
+}
+
+/*共同的选择css样式*/
+
+
+.gogtongdexuanze{
+	position: relative;
+	width: 270px;
+	height: 90px;
+	margin: auto;
+	
+}
+.command-all{
+    position: relative;
+    width: 1450px;
+	height: 230px;
+	margin:35px auto 1px auto;
+}
+.command-all h4{
+	color: #EED2EE;
+}
+.card{
+	width:300px;
+	height: 185px;
+	margin-left: 50px;
+	float: left;
+}
+
+
+/*分类优食材*/
+.box-fenlei{
+	position: relative;
+	width: 1200px;
+	height: 448px;
+	margin: auto;
+	
+}
+.fenlei-background{
+	position: absolute;
+    right: 0;
+    width: 1260px;
+    height: 600px;
+}
+.fenlei-box{
+	z-index: 1;
+	position: absolute;
+}
+.fenlei-box-left{
+	float: left;
+}
+.fenlei-box-left ul{
+	margin-top: 100px;
+	margin-left: 50px;
+}
+.fenlei-box-left ul li{
+	margin-top: 40px;
+	height: 100px;
+	width: 300px;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+.fenlei-box-middel{
+	float: left;
+	margin-top: 120px;
+	margin-left: 40px;
+	width: 720px;
+	height: 410px;
+	background-color: rgba(202,235,216,0.6);
+	border-top-right-radius: 100px;
+}
+/*.fenlei-box-right{
+	float: left;
+}
+.fenlei-box-right ul{
+	margin-top: 100px;
+	margin-left: 40px;
+}
+.fenlei-box-right ul li{
+	margin-top: 40px;
+	height: 100px;
+	width: 300px;
+}*/
+
+/*你一定喜欢css样式*/
+.like-top{
+	padding-top: 50px;
+	position: relative;
+	width: 270px;
+	height: 90px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+.huoguo-bg{
+	position: absolute;
+    left: 0;	
+}
+/*.table tr td{
+	height: 268px;
+}*/
+.like-text{
+	height: 40px;
+	line-height: 40px; 
+	text-align: center;
+}
+/*#like-xinxi{
+	/*display: none;*/
+	background-color:rgba(96,96,96,0.2) ;
+	position: relative;
+	
+}
+/*#like-xinxi p{
+	font-size: 13px;
+	padding-left: 5px;
+	margin: 2px 0;
+	color: #FFFFFF;
+	position: absolute;
+    left: 0;
+    bottom: 0;
+}*/
+
+/*页脚css样式*/
+.footer{
+	/*background-color:rgba(96,96,96);*/
+	/*background-color:rgba(96,96,96,0.8) ;*/
+}
+/*第一行*/
+.footerbg1{
+	/*background-image: url(img/footer-1.jpg);*/
+	background-color:rgba(96,96,96,0.9) ;
+	height: 140px;
+}
+.footerbg1 div div img{
+	z-index: 1;
+	
+}
+.footerbg1 div{ 
+	float: left;
+}
+.foot1-family{
+	margin-top: 25px;
+}
+.yejiaotupian1{
+	float: left;
+}
+.yejiaowenzi1{
+	float: left;
+	margin-top: 35px;
+	font-size: 14px;
+}
+/*.mine.container ul li img{
+	height: 300px;
+}*/
+/*第二行的css*/
+.footerbg2{
+	background-color:rgba(96,96,96,0.9) ;
+}
+.yejiaotupian2{
+	float: left;
+}
+.yejiaowenzi2{
+	float: left;
+}
+.table {
+    width: 100%;
+    margin-bottom: 0px;
+    color: #212529;
+}
+/*第三行的css*/
+.footerbg3{
+	height: 110px;
+	padding-top: 25px;
+	/*background-image:url(img/footer-2.jpg) ;*/
+	z-index: -1;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color:#FFFFFF ;
+	background-color:rgba(96,96,96,0.9) ;
+}
+
+/*返回按钮*/
+.return {
+	position: fixed;
+	top: 400px;
+	right: 0;
+	font-size: 36px;
+}

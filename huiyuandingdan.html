@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+		<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/plugins.js"></script>
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="css/dingdan.css" />
+		<link rel="stylesheet" type="text/css" href="index.css"/>
+		<script src="js/dingdan.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/headandfoot.js"></script>
+		<title>会员订单处理</title>
+	</head>
+	<body>
+
+		<!--头部部分-->
+		<div id="head"></div>
+		<!--<div class="container-fluid row1">
+			<div class="row">
+				<div class="col-2 offset-1 tu1">
+					<img src="../img/logo.png" width="200px">
+				</div>
+				<div class="col-4 offset-1">
+					<p>
+						<div class="search">
+							<div class="input-group mb-3 biankuang">
+								<input type="text" class="form-control" placeholder="请输入商品名称" id="mail" name="email">
+								<div class="input-group-append">
+									<span class="input-group-text bg-danger"><a href="#"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;搜索</a></span>
+								</div>
+							</div>
+					</p>
+					<ul class="search-ul">
+						<li><a href="#">关键词：</a></li>
+						<li><a href="#">调味品</a></li>
+						<li><a href="#">复合调味品</a></li>
+						<li><a href="#">食品</a></li>
+						<li><a href="#">香精</a></li>
+						<li><a href="#">火锅</a></li>
+						<li><a href="#">烧烤</a></li>
+						<li><a href="#">调料</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-3 offset-1">
+				<div class="tu2">
+					<img src="../img/phone.png">
+				</div>
+				<div class="wenzi">
+					<p>
+						<h3>18081111030</h3>
+					</p>
+					<p>服务时间:早9：00~晚18：00</p>
+				</div>
+			</div>
+
+		</div>
+		</div>-->
+
+
+		<!-- 第三行 -->
+		<!-- 导航栏 -->
+
+		<div class="container-fluid">
+			<div id="touming">
+				<div class="nav">
+					<ul class="nav" role="tablist">
+						<li class="nav-item top" onMouseOver="show1();" onMouseOut="hidden1()">
+							<a class="nav-link active" data-toggle="pill" href="#" style="width: 300px;text-align: center;">
+								<h4>商品分类</h4>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#menu1">首页</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#menu2">品牌</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#menu2">招商</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#menu2">乡村味道</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#menu2">供求信息</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#menu2">今日上新</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#menu2">限时抢购</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#menu2">精品推荐</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="left1-nav" id="left-nav" onMouseOver="show1();" onMouseOut="hidden1()">
+					<ul class="left-a">
+						<li class="left-a-1" onMouseOver="showInform();" onMouseOut="hiddenInform()">
+							<a id="btn" href="#">生活必需品</a>
+						</li>
+						<li class="left-a-1" onMouseOver="showInform();" onMouseOut="hiddenInform()">
+							<a id="btn" href="#">酿造类调味品</a>
+						</li>
+						<li class="left-a-1" onMouseOver="showInform();" onMouseOut="hiddenInform()">
+							<a id="btn" href="#">腌菜类调味品</a>
+						</li>
+						<li class="left-a-1" onMouseOver="showInform();" onMouseOut="hiddenInform()">
+							<a id="btn" href="#">鲜菜类调味品</a>
+						</li>
+						<li class="left-a-1" onMouseOver="showInform();" onMouseOut="hiddenInform()">
+							<a id="btn" href="#">干货类调味品</a>
+						</li>
+						<li class="left-a-1" onMouseOver="showInform();" onMouseOut="hiddenInform()">
+							<a id="btn" href="#">水产类调味品</a>
+						</li>
+						<li class="left-a-1" onMouseOver="showInform();" onMouseOut="hiddenInform()">
+							<a id="btn" href="#">中药类调味品</a>
+						</li>
+						<li class="left-a-1" onMouseOver="showInform();" onMouseOut="hiddenInform()">
+							<a id="btn" href="#">其他</a>
+						</li>
+					</ul>
+				</div>
+				<div id="inform1">
+					<div class="informTable" onMouseOver="showInform();" onMouseOut="hiddenInform()">
+						<div class="yincang">
+							<p>必需品</p>
+							<p><a href="#">盐</a><span>|</span>
+								<a href="#">酱油</a><span>|</span>
+								<a href="#">耗油</a><span>|</span>
+								<a href="#">鲍鱼汁</a><span>|</span>
+								<a href="#">醋</a><span>|</span>
+								<a href="#">料酒</a><span>|</span>
+								<a href="#">鸡精</a><span>|</span>
+								<a href="#">味精</a><span>|</span>
+								<a href="#">生抽</a><span>|</span>
+								<a href="#">老抽</a><span>|</span>
+								<a href="#">橄榄油</a><span>|</span>
+								<a href="#">芥末油</a>等</p>
+						</div>
+						<div class="yincang">
+							<p>酿造类</p>
+							<p>
+								<a href="#">酱油</a><span>|</span>
+								<a href="#">食醋</a><span>|</span>
+								<a href="#">酱豆</a><span>|</span>
+								<a href="#">豉豆腐乳</a>等
+							</p>
+						</div>
+						<div class="yincang">
+							<p>腌菜类</p>
+							<p>
+								<a href="#">榨菜</a><span>|</span>
+								<a href="#">芽菜</a><span>|</span>
+								<a href="#">冬菜</a><span>|</span>
+								<a href="#">泡姜</a><span>|</span>
+								<a href="#">泡辣椒</a><span>|</span>
+								<a href="#">梅干菜</a>等
+							</p>
+						</div>
+						<div class="yincang">
+							<p>鲜菜类</p>
+							<p>
+								<a href="#">葱</a><span>|</span>
+								<a href="#">姜</a><span>|</span>
+								<a href="#">蒜</a><span>|</span>
+								<a href="#">辣椒</a><span>|</span>
+								<a href="#">芫荽</a><span>|</span>
+								<a href="#">香椿</a>等
+							</p>
+						</div>
+						<div class="yincang">
+							<p>干货类</p>
+							<p>
+								<a href="#">胡椒</a><span>|</span>
+								<a href="#">花椒</a><span>|</span>
+								<a href="#">干辣椒</a><span>|</span>
+								<a href="#">八角</a><span>|</span>
+								<a href="#">小茴香</a><span>|</span>
+								<a href="#">芥末</a><span>|</span>
+								<a href="#">桂皮</a><span>|</span>
+								<a href="#">姜片</a><span>|</span>
+								<a href="#">姜粉</a><span>|</span>
+								<a href="#">草果</a>等
+							</p>
+						</div>
+						<div class="yincang">
+							<p>水产类</p>
+							<p>
+								<a href="#">水珍</a><span>|</span>
+								<a href="#">鱼露</a><span>|</span>
+								<a href="#">虾米</a><span>|</span>
+								<a href="#">虾皮</a><span>|</span>
+								<a href="#">虾籽</a><span>|</span>
+								<a href="#">虾油</a><span>|</span>
+								<a href="#">蚝油</a><span>|</span>
+								<a href="#">蟹制品</a><span>|</span>
+								<a href="#">淡菜</a><span>|</span>
+								<a href="#">紫菜</a><span>|</span>
+								<a href="#">虾酱</a>等
+							</p>
+						</div>
+						<div class="yincang">
+							<p>中药类</p>
+							<p>
+								<a href="#">当归</a><span>|</span>
+								<a href="#">党参</a><span>|</span>
+								<a href="#">枸杞</a><span>|</span>
+								<a href="#">大枣</a><span>|</span>
+								<a href="#">人参</a><span>|</span>
+								<a href="#">山楂</a><span>|</span>
+								<a href="#">龙眼</a><span>|</span>
+								<a href="#">百合</a><span>|</span>
+								<a href="#">贝母</a><span>|</span>
+								<a href="#">莲子</a><span>|</span>
+								<a href="#">杏仁</a><span>|</span>
+								<a href="#">锁阳</a>等
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr class="daohang1" color="grey">
+
+
+		<!-- 个人中心 -->
+		<div class="container-fluid beijing">
+			<div class="row">
+				<div class="">
+					<div class="container">
+						<div class="list-group zhongxin" id="mySidenav">
+							<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+							<a href="#" class="list-group-item list-group-item-dark"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;个人中心</a>
+							<a href="#" class="list-group-item list-group-item-action"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;消息中心</a>
+							<a href="#" class="list-group-item list-group-item-action"><i class="fa fa-address-card" aria-hidden="true"></i>&nbsp;个人资料</a>
+							<a href="#" class="list-group-item list-group-item-action"><i class="fa fa-envelope-open" aria-hidden="true"></i>&nbsp;我的订单</a>
+							<a href="#" class="list-group-item list-group-item-action"><i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;我的预约</a>
+							<a href="#" class="list-group-item list-group-item-action"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;购物车</a>
+							<a href="#" class="list-group-item list-group-item-action"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;管理收货地址</a>
+							<a href="#" class="list-group-item list-group-item-action"><i class="fa fa-star" aria-hidden="true"></i>&nbsp;店铺收藏</a>
+							<a href="#" class="list-group-item list-group-item-action"><i class="fa fa-edit" aria-hidden="true"></i>&nbsp;购买记录</a>
+							<a href="#" class="list-group-item list-group-item-action"><i class="fa fa-chrome" aria-hidden="true"></i>&nbsp;浏览记录</a>
+							<a href="#" class="list-group-item list-group-item-action"><i class="fa fa-database" aria-hidden="true"></i>&nbsp;会员积分</a>
+						</div>
+					</div>
+				</div>
+				<span onclick="openNav()" class="opennav" id="opennav">
+					<i class="fa fa-angle-right" aria-hidden="true" style="color: white;font-size: 40px;padding-left: 20px;"></i>
+					<h5>个人中心</h5></i>
+				</span>
+				<div class="row huiyuan">
+					<div class="huiyuan-a">
+						<img src="img/diangdan/person.jpg" width="100px" height="100px">
+					</div>
+					<div class="huiyuan-b">
+						<p class="row col-12">
+							<a href="#" class="col-2"><i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;ID&nbsp;:&nbsp;会员</a>
+							<a href="#" class="col-3 offset-3"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;收货地址</a>
+							<a href="#" class="col-2"><i class="fa fa-money" aria-hidden="true"></i>&nbsp;优惠信息</a>
+							<a href="#" class="col-2"><i class="fa fa-bandcamp" aria-hidden="true"></i>&nbsp;支付信息</a>
+						</p>
+						<p class="row col-12">账号:1234567890</p>
+						<p class="row col-12">
+							<a href="#" class="col-3">待付款&nbsp;&nbsp;:&nbsp;&nbsp;2</a>
+							<a href="#" class="col-3">待发货&nbsp;&nbsp;:&nbsp;&nbsp;1</a>
+							<a href="#" class="col-3">待收货&nbsp;&nbsp;:&nbsp;&nbsp;2</a>
+							<a href="#" class="col-3">待评价&nbsp;&nbsp;:&nbsp;&nbsp;1</a>
+						</p>
+					</div>
+					<div class="dingdan">
+						<h5 class="word-1">我的订单</h5>
+						<div class="container xuan-1">
+							<form>
+								<div class="form-check">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input" value="">全选
+									</label>
+								</div>
+								<div class="form-check">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input" value="">待付款
+									</label>
+								</div>
+							</form>
+						</div>
+						<div class="row col-12 xuan-2">
+							<span class="col-3 offset-1">商品信息</span>
+							<span class="col-3">规格</span>
+							<span class="col-2">单价（元）</span>
+							<span class="col-2">金额（元）</span>
+							<span class="col-1">操作</span>
+						</div>
+
+
+						<div class="container">
+							<table class="table1" id="box">
+								<tbody>
+									<tr>
+										<td class="xuan-3a">
+											<div class="container ">
+												<form>
+													<div class="form-check xuan-3">
+														<label class="form-check-label">
+															<input type="checkbox" class="form-check-input" value="">
+														</label>
+													</div>
+												</form>
+												<div class="tu3">
+													<img src="img/diangdan/dingdan.png" width="90px" height="90px">
+												</div>
+											</div>
+
+
+										</td>
+										<td class="xuan-3b">番茄汁X1</td>
+										<td class="xuan-3c">小瓶</td>
+										<td class="xuan-3d">￥30</td>
+										<td class="xuan-3e">￥30</td>
+										<td>
+											<p><a href="#">移入收藏夹</a></p>
+											<p><a href="#">删除</a></p>
+											<p><a href="#">付款</a></p>
+										</td>
+									</tr>
+									<tr>
+										<td class="xuan-3a">
+											<div class="container ">
+												<form>
+													<div class="form-check xuan-3">
+														<label class="form-check-label">
+															<input type="checkbox" class="form-check-input" value="">
+														</label>
+													</div>
+												</form>
+												<div class="tu3">
+													<img src="img/diangdan/dingdan.png" width="90px" height="90px">
+												</div>
+											</div>
+
+
+										</td>
+										<td class="xuan-3b">番茄汁X1</td>
+										<td class="xuan-3c">小瓶</td>
+										<td class="xuan-3d">￥30</td>
+										<td class="xuan-3e">￥30</td>
+										<td>
+											<p><a href="#">移入收藏夹</a></p>
+											<p><a href="#">删除</a></p>
+											<p><a href="#">付款</a></p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="container xuan-4">
+												<form>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input type="checkbox" class="form-check-input" value="">
+														</label>
+													</div>
+												</form>
+											</div>
+											<span style="float: right;">待发货</span>
+										</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr>
+										<td class="xuan-3a">
+											<div class="container ">
+												<form>
+													<div class="form-check xuan-3">
+														<label class="form-check-label">
+															<input type="checkbox" class="form-check-input" value="">
+														</label>
+													</div>
+												</form>
+												<div class="tu3">
+													<img src="img/diangdan/dingdan.png" width="90px" height="90px">
+												</div>
+											</div>
+
+
+										</td>
+										<td class="xuan-3b">番茄汁X1</td>
+										<td class="xuan-3c">小瓶</td>
+										<td class="xuan-3d">￥30</td>
+										<td class="xuan-3e">￥30</td>
+										<td>
+											<p><a href="#">移入收藏夹</a></p>
+											<p><a href="#">删除</a></p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="container xuan-4">
+												<form>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input type="checkbox" class="form-check-input" value="">
+														</label>
+													</div>
+												</form>
+											</div>
+											<span style="float: right;">待收货</span>
+										</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr>
+										<td class="xuan-3a">
+											<div class="container ">
+												<form>
+													<div class="form-check xuan-3">
+														<label class="form-check-label">
+															<input type="checkbox" class="form-check-input" value="">
+														</label>
+													</div>
+												</form>
+												<div class="tu3">
+													<img src="img/diangdan/dingdan.png" width="90px" height="90px">
+												</div>
+											</div>
+
+
+										</td>
+										<td class="xuan-3b">番茄汁X1</td>
+										<td class="xuan-3c">小瓶</td>
+										<td class="xuan-3d">￥30</td>
+										<td class="xuan-3e">￥30</td>
+										<td>
+											<p><a href="#">移入收藏夹</a></p>
+											<p><a href="#">删除</a></p>
+											<p><a href="#">确认收货</a></p>
+											<p><a href="#">查看物流</a></p>
+										</td>
+									</tr>
+									<tr>
+										<td class="xuan-3a">
+											<div class="container ">
+												<form>
+													<div class="form-check xuan-3">
+														<label class="form-check-label">
+															<input type="checkbox" class="form-check-input" value="">
+														</label>
+													</div>
+												</form>
+												<div class="tu3">
+													<img src="img/diangdan/dingdan.png" width="90px" height="90px">
+												</div>
+											</div>
+
+
+										</td>
+										<td class="xuan-3b">番茄汁X1</td>
+										<td class="xuan-3c">小瓶</td>
+										<td class="xuan-3d">￥30</td>
+										<td class="xuan-3e">￥30</td>
+										<td>
+											<p><a href="#">移入收藏夹</a></p>
+											<p><a href="#">删除</a></p>
+											<p><a href="#">确认收货</a></p>
+											<p><a href="#">查看物流</a></p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="container xuan-4">
+												<form>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input type="checkbox" class="form-check-input" value="">
+														</label>
+													</div>
+												</form>
+											</div>
+											<span style="float: right;">待评价</span>
+										</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr>
+										<td class="xuan-3a">
+											<div class="container ">
+												<form>
+													<div class="form-check xuan-3">
+														<label class="form-check-label">
+															<input type="checkbox" class="form-check-input" value="">
+														</label>
+													</div>
+												</form>
+												<div class="tu3">
+													<img src="img/diangdan/dingdan.png" width="90px" height="90px">
+												</div>
+											</div>
+
+
+										</td>
+										<td class="xuan-3b">番茄汁X1</td>
+										<td class="xuan-3c">小瓶</td>
+										<td class="xuan-3d">￥30</td>
+										<td class="xuan-3e">￥30</td>
+										<td>
+											<p><a href="#">移入收藏夹</a></p>
+											<p><a href="#">删除</a></p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<div class="row paging">
+								<div class="row pag-left f-l">
+									<a href="#" class="about left-r f-l">
+										<</a> <ul class="left-m f-l">
+											<li><a href="#">1</a></li>
+											<li class="current"><a href="#">2</a></li>
+											<li><a href="#">3</a></li>
+											<li><a href="#">4</a></li>
+											<li><a href="#">5</a></li>
+											<li><a href="#">6</a></li>
+											<li><a href="#">...</a></li>
+											<li><a href="#">100</a></li>
+											<div style="clear:both;"></div>
+											</ul>
+											<a href="#" class="about left-l f-l">></a>
+											<div style="clear:both;"></div>
+								</div>
+								<div class="row pag-right f-l">
+									<div class="jump-page f-l">
+										到第<input type="text" />页
+									</div>
+									<button class="f-l">确定</button>
+									<div style="clear:both;"></div>
+								</div>
+								<div style="clear:both;"></div>
+							</div>
+							<div class="md-ft">
+								<P class="md-p1"><input type="checkbox" name="hobby" value=""></input><span>全选</span></P>
+								<a href="#">删除</a>
+								<a href="#">加入收藏夹</a>
+								<button>结算</button>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
+				<!-- 我的订单 -->
+
+			</div>
+		</div>
+
+		<div class="clearfix"></div>
+		<div id="footer"></div>
+
+
+
+		<!-- 返回按钮 -->
+		<div class="return" id="return">
+			<i class="fa fa-angle-up" aria-hidden="true" style="padding-left: 30px;"></i>
+			<h5>返回顶部</h5>
+		</div>
+
+
+
+	</body>
+</html>

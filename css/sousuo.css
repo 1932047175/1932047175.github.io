@@ -1,0 +1,257 @@
+
+/* 头部 */
+
+.container-fluid{
+	padding: 0;
+	margin: 0;
+}
+.row{
+	margin: 0;
+}
+.touming2{
+	background: rgba(76, 76, 76, 0.8);
+	
+	height: 150px;
+	font-family: "宋体";
+	font-size: 20px;
+}
+.touming3{
+	color: #F5DADA;
+	margin-top: 15px;
+}
+#touming1 {
+	
+	height: 20px;
+	margin-top: 10px;
+}
+
+#touming1 a {
+	color: #F5DADA;
+}
+
+#touming1 a:hover {
+	color: #FF4500;
+}
+.nav li{
+	margin-left: 36px;
+	margin-top: 0;
+}
+
+/* 背景 */
+.beijing{
+	position: absolute;
+	margin: 0 auto;
+}
+
+
+
+
+/* 搜索 */
+.row2{
+	width: 1400px;
+	height: 120px;
+	margin-left: 150px;
+}
+.sousuo{
+	background: rgba(76, 76, 76, 0.8);
+	height: 100px;
+	font-family: "宋体";
+	font-size: 50px;
+	color: #F5DADA;
+}
+.search1{
+	font-size: 20px;
+	top: 50px;
+	color: #F5DADA;
+}
+.search2{
+	top: 40px;
+}
+
+.biankuang input{
+	font-size: 20px;
+	border: 1px solid black;
+	border-radius: 20px;
+	text-indent: 20px;
+	outline: none;
+}
+.search3{
+	font-size: 20px;
+	top: 50px;
+	left: 95px;
+}
+.search3 a{
+	text-decoration: none;
+	color: #F5DADA;
+}
+.search3 a:hover{
+	color: orangered;
+}
+
+/* 品牌 */
+.row3{
+	margin-top: 50px;
+	height: 120px;
+	font-size: 20px;
+}
+.pinpai1{
+	top: 30px;
+}
+.pinpai2{
+	top: 20px;
+}
+.hezi2{
+	border: 1px solid grey;
+}
+.pinpai3{
+	left: 230px;
+	height: 120px;
+	line-height: 120px;
+}
+.pinpai3 a{
+	text-decoration: none;
+	color: black;
+}
+.pinpai3 a:hover{
+	color: orangered;
+}
+
+/* 热销 */
+.row4{
+	margin-top: 20px;
+	height: 180px;
+	font-size: 15px;
+}
+.hezi1{
+	border: 1px solid grey;
+}
+.rexiao1{
+	top: 20px;
+	height: 180px;
+	line-height: 70px;
+}
+.rexiao2 a{
+	text-decoration: none;
+	color: black;
+}
+.rexiao2 a:hover{
+	color: orangered;
+}
+
+.return {
+	position: fixed;
+	top: 400px;
+	right: 0;
+	font-size: 36px;
+
+}
+/* 推荐 */
+
+.row5-a{
+	margin-top: 90px;
+	height: 60px;
+	
+}
+.tuijian1{
+	text-align: center;
+	line-height: 60px;
+	font-size: 25px;
+	color: white;
+	background: #6c6fa4;
+}
+.tuijian1-a{
+	height: 60px;
+}
+.tuijian2{
+	height: 60px;
+	line-height: 40px;
+	color: #F5DADA;
+	font-size: 25px;
+	background: #6c6fa4;
+}
+.tuijian2 a{
+	color: white;
+}
+.tuijian2 a:hover{
+	color: orangered;
+}
+.tuijian3 img{
+	position: absolute;
+	margin-left:82px;
+}
+.tuijian3-a1{
+	margin-left: 20px;
+}
+.row6{
+	margin-left: 20px;
+}
+.list{
+	width: 210px;
+	margin-left: 120px;
+	font-size: 18px;
+}
+.list a{
+	text-decoration: none;
+	color: white;
+}
+.list a:hover{
+	color: orangered;
+}
+.biaoge{
+	right: 15px;
+}
+.biaoge a{
+	color: black;
+	text-decoration: none;
+}
+.biaoge a:hover{
+	color: orangered;
+}
+.biaoge-1{
+	word-wrap: break-word;
+	word-break: break-all;
+	
+}
+.biaoge-2{
+	
+	width: 1000px;
+}
+.biaoge table tbody tr td{
+	width: 20%;
+}
+
+
+
+/* 心怡调料 */
+.xinyi{
+	height: 60px;
+	line-height: 60px;
+	color: white;
+	font-size: 25px;
+	background: #f2b087;
+}
+.xinyi1 a{
+	color: #000000;
+}
+.xinyi1 a:hover{
+	color: orangered;
+}
+
+
+
+/* 颜色框 */
+.kuang{
+	background: #f6dfdf;
+	height: 500px;
+}
+.kuang a{
+	text-decoration: none;
+	color: #ed6c6c;
+}
+.kuang1{
+	float: left;
+}
+.kuanga{
+	font-size: 100px;
+	text-align: center;
+}

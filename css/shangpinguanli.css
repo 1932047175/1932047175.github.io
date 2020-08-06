@@ -1,0 +1,85 @@
+
+/*第一行数量加减css样式*/
+.amount_box{
+    width: 77px;
+    height: 25px;
+    position: relative;
+    color: #cbcbcb;
+    border-right: none;
+    float: left;
+    margin-top: 10px;
+}
+.amount_box .reSty:hover{
+    border-right: none;
+    border-color: #e5e5e5;
+    text-decoration: none;
+    color: #cbcbcb;
+}
+.amount_box .plus{
+    border-left-color: transparent;
+    right: 0;
+}
+.amount_box .reSty{
+    color: #cbcbcb;
+}
+.amount_box .reduce{
+    left: 0;
+}
+.amount_box input{
+    width: 39px;
+    height: 23px;
+    line-height: 15px;
+    border: 1px solid #aaa;
+    color: #343434;
+    text-align: center;
+    padding: 4px 0;
+    background-color: #fff;
+    z-index: 2;
+    position: absolute;
+    left: 18px;
+    float: left;
+}
+.amount_box a{
+    float: left;
+    height: 23px;
+    width: 17px;
+    border: 1px solid #e5e5e5;
+    background: #f0f0f0;
+    text-align: center;
+    line-height: 23px;
+    color: #444;
+    position: absolute;
+    top:0;
+}
+.amount_box a:hover{
+    border-color: #ff873e;
+    text-decoration: none;
+    color: #ff873e;
+    z-index: 3;
+}
+#menu1{
+	border: 1px solid #A9A9A9;
+}
+/*第二行css样式*/
+/*nav tabs模块的css样式*/
+.nav-link{
+	color: #444444;
+}
+/*商品评论的模块css样式*/
+#pingjia{
+	border:1px solid #CBCBCB;
+	color: #444444;
+}
+/*一起购买的商品模块css样式*/
+#yiqigoumaideshangpin img{
+	width: 300px;
+	height: 300px;
+}
+#yiqigoumaideshangpin div{
+	text-align: center;
+	font-size: 25px;
+}
+#yiqigoumaideshangpin a{
+	text-decoration: none;
+	color: #444444;
+}

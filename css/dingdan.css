@@ -1,0 +1,413 @@
+.row1{
+	margin-top: 20px;
+}
+.search ul {
+	display: flex;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.search ul li {
+	list-style: none;
+	text-align: center;
+	line-height: 40px;
+	padding: 5px;
+	height: 40px;
+	width: 100px;
+	margin: 0 5px;
+	font-size: 15px;
+}
+
+.search-ul {
+	margin-top: -20px;
+	margin-left: -50px;
+}
+
+.search a {
+	color: darkred;
+}
+
+.search a:hover {
+	text-decoration: none;
+}
+
+.tu2 {
+	float: left;
+	margin-top: 25px;
+	margin-left: 60px;
+	right: 40px;
+}
+#touming ul .nav-item{
+	margin-left: 12px;
+	margin-top: 15px;
+}
+#touming ul{
+	height: 70px;
+}
+.wenzi {
+	float: right;
+}
+
+#touming {
+	width: 80%;
+	background: rgba(76, 76, 76, 0.8);
+	margin: 0 auto;
+	margin-top: 50px;
+	font-family: "宋体";
+	font-size: 20px;
+}
+
+#touming a {
+	color: #F5DADA;
+}
+
+#touming a:hover {
+	color: #FF4500;
+}
+
+.left1-nav {
+	width: 250px;
+	height: 560px;
+	background: rgba(76, 76, 76, 0.8);
+	position: absolute;
+	top: 265px;
+	font-family: "宋体";
+	font-size: 20px;
+	display: none;
+	z-index: 2;
+}
+
+.left-a {
+	list-style: none;
+	line-height: 70px;
+}
+
+.left-a a {
+	text-decoration: none;
+}
+
+.left-a>li {
+	margin-left: 25px;
+}
+
+#inform1 {
+	position: absolute;
+	top: 265px;
+	left: 413px;
+	width: 450px;
+	height: 560px;
+	display: none;
+	z-index: 2;
+}
+
+.informTable {
+	height: 560px;
+	width: 450px;
+	background: rgba(76, 76, 76, 0.8);
+	left: 500px;
+	top: 200px;
+	font-size: 17px;
+	color: orangered;
+	line-height: 30px;
+}
+
+.yincang {
+	line-height: 18px;
+}
+
+.yincang a {
+	text-decoration: none;
+}
+
+.daohang1 {
+	width: 100%;
+	margin-top: 0px;
+	height: 2px;
+	margin-bottom: 0;
+}
+
+.zhongxin {
+	height: 550px;
+	width: 0;
+	transition: 0.4s;
+	overflow-x: hidden;
+	position: fixed;
+	left: 0;
+	float: left;
+}
+
+.huiyuan {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 150px;
+	border: 1.5px solid grey;
+	background: rgba(0,0,0,0.3);
+}
+.huiyuan p{
+	color: white;
+}
+.huiyuan-a {
+	margin-top: 20px;
+	float: left;
+}
+
+.huiyuan-b {
+	margin-top: 20px;
+	width: 80%;
+	float: left;
+	margin-left: 50px;
+}
+
+.huiyuan-b a {
+	color: white;
+	text-decoration: none;
+}
+
+.huiyuan-b a:hover {
+	color: orangered;
+}
+
+.closebtn {
+	position: absolute;
+	top: 0;
+	font-size: 36px;
+	margin-left: 160px;
+	z-index: 2;
+	color: black;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+.closebtn:hover {
+	color: orangered;
+	text-decoration: none;
+}
+
+.opennav {
+	position: fixed;
+	top: 400px;
+	left: 0;
+	color: white;
+}
+
+.opennav i:hover {
+	cursor: pointer;
+}
+.beijing {
+	background: url(../img/sousuoye/beijing1.png) no-repeat fixed;
+	background-size: 100% 900px;
+	width: 100%;
+	height: 1800px;
+	font-size: 19px;
+}
+
+.return {
+	position: fixed;
+	top: 400px;
+	right: 0;
+	font-size: 36px;
+	color: white;
+}
+
+.dingdan {
+	border: 1.5px solid grey;
+	margin-top: 90px;
+	width: 100%;
+	background: rgba(0,0,0,0.3);
+	color: white;
+}
+
+.word-1 {
+	margin: 15px 0 10px 15px;
+}
+
+.xuan-1 {
+	margin-top: 10px;
+	float: left;
+	width: 100px;
+}
+
+.xuan-2 {
+	float: left;
+	width: 800px;
+	margin: 10px 0 50px 60px;
+}
+
+.xuan-3 {
+	margin-top: 20px;
+	float: left;
+}
+
+.tu3 {
+	float: left;
+}
+
+.table1 {
+	width: 950px;
+	height: 800px;
+	word-wrap: break-word;
+	word-break: break-all;
+	color: white;
+}
+
+.table1 a {
+	text-decoration: none;
+	color: white;
+}
+
+.table1 a:hover {
+	color: orangered;
+}
+
+.xuan-3d {
+	width: 20%;
+	text-align: center;
+}
+
+.xuan-3a {
+	width: %;
+	text-align: center;
+}
+
+.xuan-3b {
+	text-align: center;
+	width: 20%;
+}
+
+.xuan-3c {
+	width: 20%;
+	text-align: center;
+}
+
+.xuan-4 {
+	float: left;
+}
+
+.paging {
+	width: 810px;
+	margin: 30px auto 0;
+	margin-left: 270px;
+}
+
+.pag-left {
+	margin-right: 15px;
+}
+
+.pag-left .about {
+	display: inline-block;
+	width: 41px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: #fff;
+	background: grey;
+	font-size: 23px;
+}
+
+.pag-left .left-m {
+	height: 33px;
+	padding: 1px;
+	background: grey;
+}
+
+.pag-left .left-m li {
+	float: left;
+	width: 39px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	background: #fff;
+	list-style: none;
+}
+
+.pag-left .left-m li:hover {
+	background: grey;
+}
+
+.pag-left .left-m li:hover a {
+	color: #fff;
+}
+
+.pag-left .left-m .current {
+	background: grey;
+}
+
+.pag-left .left-m .current a {
+	color: #fff;
+}
+
+.pag-left .left-m li a {
+	display: block;
+	font-size: 14px;
+	color: #000;
+}
+
+.pag-right .jump-page {
+	font-size: 14px;
+	color: #000;
+	margin-right: 10px;
+}
+
+.pag-right .jump-page input {
+	border: none;
+	width: 48px;
+	height: 33px;
+	border: 1px solid grey;
+	margin: 0 10px;
+	padding: 0 5px;
+}
+
+.pag-right button {
+	border: none;
+	width: 53px;
+	height: 35px;
+	background: grey;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.md-ft {
+	height: 44px;
+	background: #F7F7F7;
+	border-top: 1px solid #e0e0e0;
+}
+
+.md-ft p {
+	display: inline-block;
+	line-height: 44px;
+	margin: 0 15px 0 10px;
+}
+
+.md-ft p input {
+	position: relative;
+	top: 2px;
+	margin-right: 10px;
+}
+
+.md-ft a {
+	margin-right: 15px;
+	line-height: 44px
+}
+
+.md-ft button {
+	width: 77px;
+	height: 44px;
+	border: none;
+	float: right;
+	cursor: pointer;
+	font-size: 14px;
+	color: #fff;
+	background: grey;
+}
+.md-ft a{
+	text-decoration: none;
+	color: black;
+}
+.md-ft a:hover{
+	color: grey;
+}
